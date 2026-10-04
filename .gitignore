@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.next/
+*.tsbuildinfo
+.env
+.env.local
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+staticfiles/
+
+# Flutter
+.dart_tool/
+build/

@@ -1,0 +1,27 @@
+name: fieldtracking
+description: Field staff app — shift control, background route tracking, offline sync, tasks.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+  geolocator: ^13.0.0
+  battery_plus: ^6.0.0
+  image_picker: ^1.1.0
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

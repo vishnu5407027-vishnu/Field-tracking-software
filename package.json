@@ -1,0 +1,8 @@
+{
+  "name": "fieldtracking",
+  "private": true,
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "build:web": "npm --prefix apps/web run build"
+  }
+}
